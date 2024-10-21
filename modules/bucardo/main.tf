@@ -31,7 +31,7 @@ resource "aws_instance" "replicator" {
 
   user_data_replace_on_change = true
 
-  user_data = templatefile("${path.module}/../modules/bucardo/scripts/setup.sh.tftpl", {
+  user_data = templatefile("${path.module}/scripts/setup.sh.tftpl", {
     service_name            = var.service_name,
     rds_host                = var.rds_instance.host,
     rds_database            = "${var.service_name}_db",
