@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce86cac-47a1-492f-a12d-d4f8878b7e75" name="Changes" comment="" />
+    <list default="true" id="fce86cac-47a1-492f-a12d-d4f8878b7e75" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.terraform.tfstate.lock.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucardo.tf" beforeDir="false" afterPath="$PROJECT_DIR$/bucardo.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/bucardo/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/bucardo/data.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform.tfstate" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,24 +27,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Terraform.Plan directory bucardo.executor": "Run",
-    "Terraform.Plan directory bucardo_migrate.executor": "Run",
-    "Terraform.terraform get in rds.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ychchen/warren_ws/bucardo_migrate/modules/vpc",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Terraform.Plan directory bucardo.executor&quot;: &quot;Run&quot;,
+    &quot;Terraform.Plan directory bucardo_migrate.executor&quot;: &quot;Run&quot;,
+    &quot;Terraform.terraform get in rds.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ychchen/warren_ws/bucardo_migrate/modules/vpc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/modules/vpc" />
@@ -72,7 +78,7 @@
         <map />
       </option>
       <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="plan" />
+      <option name="programParameters" value="plan -out=tfplan" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -80,6 +86,10 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Terraform.Plan directory bucardo" />
+      <item itemvalue="Terraform.Plan directory bucardo_migrate" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Terraform.Plan directory bucardo_migrate" />
@@ -104,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729396488098</updated>
       <workItem from="1729396489053" duration="6679000" />
-      <workItem from="1729508868064" duration="6952000" />
+      <workItem from="1729508868064" duration="13802000" />
     </task>
     <servers />
   </component>
